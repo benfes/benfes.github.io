@@ -1,18 +1,19 @@
 ---
-layout: page
+layout: base
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# About Me
+Hey, I'm a developer with a passion for the web. I currently work at Seekom, in Wellington, New Zealand.
 
 
-[jekyll-organization]: https://github.com/jekyll
+## Experience
+I've worked in a wide array of areas within the web sector ranging from instructing and support to finance through to accommodation.
+
+I've previously worked in London for deko(previously pay4later) and was one of the lead developers helping to get the startup from a 7 person crew to 30 (when I left the company).
+
+## Other Interests
+When I'm not hunched over my keyboard, you will generally find me behind a guitar. I spend a lot of my free time trying to tweak my skills on the instrument.
+
+My other passion is building, from lego through to woodworking. This kinda goes hand in hand with the whole developer side of my life.

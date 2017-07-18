@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% include header.html %}
+    <div class="hero" style="background-image: url('/assets/img/{{ page.title }}.jpg')">
+      <div class="title">
+        {{ page.title }}
+      </div>
+    </div>
+    <div class="content-wrapper">
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

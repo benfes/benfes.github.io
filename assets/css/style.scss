@@ -1,0 +1,80 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body{
+  background: whitesmoke;
+}
+.header{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: stretch;
+  padding: 0.5em 1em;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  .brand{
+    flex-grow: 1;
+    font-size: 2em;
+    font-weight: lighter;
+  }
+  .nav{
+    flex-grow: 1;
+    margin: 0;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    li{
+      display: inline;
+      margin-left: 2em;
+      a{
+        color: white;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+.hero{
+  background: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 0.5em #ff5722;
+  .title{
+    color: white;
+    font-size: 5em;
+    text-shadow: black 0 0 5px;
+    font-weight: lighter;
+  }
+}
+.content{
+  margin: 1em;
+  padding: 1em;
+  background: white;
+  border: solid thin #ccc;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.posts{
+  .post-list{
+    padding: 1em;
+    li{
+      background: white;
+      border: solid thin #ccc;
+      padding: 1em;
+    }
+  }
+  .rss-subscribe{
+    text-align: center;
+  }
+}
